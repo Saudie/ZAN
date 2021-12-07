@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Authors: Solène Delvaux & François Palud -->
+	<!-- Date: May 2021 -->
+	<script src="heartFunctions.js"></script>
+	
+	<style>
+		body {
+			margin: 0px;
+		} 
+		#clickMe {
+			position: absolute;
+			height: 100%;
+			width:100%;
+			background: black;
+		}
+		
+	</style>
+	
+</head>
+<body>
+	<input id="clickMe" type="button" value="clickme" ontouchstart="reviveHeart();" ontouchend="killHeart()"/>
+</body>
+</html>
